@@ -2,15 +2,17 @@
   "name": "portfolio_site_kcn",
   "version": "1.0.0",
   "private": true,
-  "description": "portfolio_site_kcn",
+  "description": "Kiran C Nayak's Portfolio Site",
   "author": "Kiran C Nayak",
-  "keywords": [
-    "gatsby"
-  ],
+  "bugs": {
+    "url": "https://github.com/KiranCNayak/portfolio-site-kcn/issues"
+  },
   "scripts": {
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build",
+    "build": "rm -rf public && rm -rf .cache && gatsby build",
+    "format": "prettier --write '{gatsby-*.js,.eslintrc.js,src/**/*.{js,jsx,json,css}}'",
+    "lint": "eslint --fix .",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
@@ -25,5 +27,22 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tailwindcss": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "eslint-plugin-react": "^7.33.2",
+    "husky": "4",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "{./gatsby-*.js,./.eslintrc.js,./src/**/*.{js,jsx,json,css}}": [
+      "yarn format"
+    ]
   }
 }
