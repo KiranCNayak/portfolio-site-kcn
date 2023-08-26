@@ -11,7 +11,7 @@
     "dev": "gatsby develop",
     "start": "gatsby develop",
     "build": "rm -rf public && rm -rf .cache && gatsby build",
-    "format": "prettier --write '{gatsby-*.js,.eslintrc.js,src/**/*.{js,jsx,json,css}}'",
+    "format": "prettier --write '{./gatsby-*.js,./.eslintrc.js,./src/**/*.{js,jsx,json,css}}'",
     "lint": "eslint --fix .",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
@@ -42,6 +42,7 @@
   },
   "lint-staged": {
     "{./gatsby-*.js,./.eslintrc.js,./src/**/*.{js,jsx,json,css}}": [
+      "yarn lint",
       "yarn format"
     ]
   }
