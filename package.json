@@ -33,13 +33,6 @@
     "eslint": "^8.48.0",
     "eslint-plugin-react": "^7.33.2",
     "husky": "^8.0.3",
-    "lint-staged": "^14.0.1",
     "prettier": "^3.0.2"
-  },
-  "lint-staged": {
-    "{./gatsby-*.js,./.eslintrc.js,./src/**/*.{js,jsx,json,css}}": [
-      "yarn lint",
-      "yarn format"
-    ]
   }
 }
