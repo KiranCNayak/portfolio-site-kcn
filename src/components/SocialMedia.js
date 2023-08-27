@@ -6,7 +6,7 @@ import { IMAGE_SIZES } from '../constants/Constants';
 
 const SocialMedia = () => {
   return (
-    <div className="flex">
+    <div className="flex items-center">
       <a href={'https://twitter.com/KiranCNayak'} target="_blank">
         <Image size={IMAGE_SIZES.small.key} alt={'X LOGO'} src={xLogoImg} />
       </a>

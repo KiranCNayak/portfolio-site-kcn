@@ -7,7 +7,7 @@ const Image = (props) => {
       {...props}
       height={IMAGE_SIZES[props.size].height}
       width={IMAGE_SIZES[props.size].width}
-      className={'rounded-full'}
+      className={props?.rounded ? 'rounded-full' : ''}
     />
   );
 };
