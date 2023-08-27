@@ -1,11 +1,11 @@
-import jsLogoImg from '../assets/js.png';
-import gitLogoImg from '../assets/git.png';
-import css3LogoImg from '../assets/css3.png';
-import reactLogoImg from '../assets/react.png';
-import html5LogoImg from '../assets/html5.png';
-import vscodeLogoImg from '../assets/vscode.png';
-import nextJSLogoImg from '../assets/nextjs.png';
-import tailwindCSSLogoImg from '../assets/tailwindcss.png';
+import jsLogoImg from '../../static/js.png';
+import gitLogoImg from '../../static/git.png';
+import css3LogoImg from '../../static/css3.png';
+import reactLogoImg from '../../static/react.png';
+import html5LogoImg from '../../static/html5.png';
+import vscodeLogoImg from '../../static/vscode.png';
+import nextJSLogoImg from '../../static/nextjs.png';
+import tailwindCSSLogoImg from '../../static/tailwindcss.png';
 
 export const IMAGE_SIZES = {
   extraSmall: { key: 'extraSmall', height: '24px', width: '24px' },

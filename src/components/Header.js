@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import mainLogo from '../assets/kcn-logo.png';
+import mainLogo from '../../static/kcn-logo.png';
 import Image from './Image';
 import { IMAGE_SIZES } from '../constants/Constants';
 

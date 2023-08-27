@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from './Image';
-import xLogoImg from '../assets/x.png';
-import githubLogoImg from '../assets/github.png';
+import xLogoImg from '../../static/x.png';
+import githubLogoImg from '../../static/github.png';
 import { IMAGE_SIZES } from '../constants/Constants';
 
 const SocialMedia = () => {

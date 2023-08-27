@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from '../components/Image';
-import profileImg from '../assets/kcn_image.jpg';
+import profileImg from '../../static/kcn_image.jpg';
 import {
   IMAGE_SIZES,
   KNOWN_FRAMEWORKS_AND_TOOLS,
