@@ -5,7 +5,9 @@ const Image = (props) => {
   return (
     <img
       {...props}
-      className={`rounded-full ${IMAGE_SIZES[props.size].value}`}
+      height={IMAGE_SIZES[props.size].height}
+      width={IMAGE_SIZES[props.size].width}
+      className={'rounded-full'}
     />
   );
 };

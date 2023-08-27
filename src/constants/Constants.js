@@ -1,7 +1,7 @@
 export const IMAGE_SIZES = {
-  extraSmall: { key: 'extraSmall', value: 'h-8 w-8' },
-  small: { key: 'small', value: 'h-12 w-12' },
-  medium: { key: 'medium', value: 'h-16 w-16' },
-  large: { key: 'large', value: 'h-20 w-20' },
-  extraLarge: { key: 'extraLarge', value: 'h-24 w-24' },
+  extraSmall: { key: 'extraSmall', height: '24px', width: '24px' },
+  small: { key: 'small', height: '36px', width: '36px' },
+  medium: { key: 'medium', height: '48px', width: '48px' },
+  large: { key: 'large', height: '60px', width: '60px' },
+  extraLarge: { key: 'extraLarge', height: '72px', width: '72px' },
 };
