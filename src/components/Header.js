@@ -31,6 +31,11 @@ const Header = () => {
             />
             <Image
               size={IMAGE_SIZES.extraSmall.key}
+              alt={'JS ICON'}
+              src={jsLogoImg}
+            />
+            <Image
+              size={IMAGE_SIZES.extraSmall.key}
               alt={'REACT ICON'}
               src={reactLogoImg}
             />
@@ -41,8 +46,8 @@ const Header = () => {
             />
             <Image
               size={IMAGE_SIZES.extraSmall.key}
-              alt={'JS ICON'}
-              src={jsLogoImg}
+              alt={'TAILWINDCSS ICON'}
+              src={tailwindCSSLogoImg}
             />
           </div>
         </div>
