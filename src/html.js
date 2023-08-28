@@ -6,6 +6,7 @@ export default function HTML(props) {
     <html
       {...props.htmlAttributes}
       style={{
+        scrollBehavior: 'smooth',
         backgroundImage:
           'linear-gradient(135deg, #020617 0%, #0f172a 50%, #020617 100%)',
       }}
