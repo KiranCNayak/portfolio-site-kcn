@@ -9,8 +9,8 @@ const Resume = () => {
           <div className="flex flex-[5] flex-col mr-2 text-justify">
             <p className="text-4xl font-bold">Kiran C Nayak</p>
             <p className="text-lg font-light">
-              Frontend Developer focussed on building accessible products for
-              the world, mainly on Mobile & Web platforms
+              Frontend Developer who is focussed on building accessible products
+              for the world, mainly on Mobile & Web platforms.
             </p>
           </div>
           <div className="flex flex-[2] flex-col ml-2">

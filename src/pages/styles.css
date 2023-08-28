@@ -1,0 +1,27 @@
+.tooltip {
+  position: relative;
+}
+
+.tooltip:before {
+  color: #fff;
+  content: attr(data-text);
+  position: absolute;
+  display: none;
+
+  top: 110%;
+  width: 180px;
+
+  left: 0%;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #111 0%, #222 50%, #111 100%);
+}
+.tooltip[tooltip-position='top']:before {
+  transform: translate(-40%, -100%);
+  top: -10%;
+}
+
+.tooltip:hover:before {
+  display: flex;
+  justify-content: center;
+}
