@@ -14,7 +14,6 @@ const Resume = () => {
             </p>
           </div>
           <div className="flex flex-[2] flex-col ml-2">
-            <p>kiran.nayak@dummy-email.com</p>
             <a href="https://github.com/KiranCNayak">
               <p>
                 GitHub/<span className="font-bold">KiranCNayak</span>
@@ -25,11 +24,21 @@ const Resume = () => {
                 Twitter/<span className="font-bold">KiranCNayak</span>
               </p>
             </a>
+            <a href="https://www.linkedin.com/in/KiranCNayak/">
+              <p>
+                LinkedIn/<span className="font-bold">KiranCNayak</span>
+              </p>
+            </a>
           </div>
         </div>
 
         <div className="flex p-4">
           <div className="flex flex-[5] flex-col mr-2 ">
+            <p className="text-2xl font-semibold mb-2">Projects</p>
+            <div className="flex items-center mb-4">
+              <p className="text-lg font-light">Wallpaper App</p>
+              <p className="text-lg font-light">Todo App</p>
+            </div>
             <p className="text-2xl font-semibold mb-2">Relevant Experience</p>
             <div className="flex items-center">
               <p className="text-lg font-light">Software Engineer 1</p>
@@ -50,35 +59,30 @@ const Resume = () => {
             </div>
             <ul className="ml-5 mb-4">
               <li className="list-disc">
-                Migrated a part of the code that was using Realm DB for
-                Front-end state management to use Redux containers
+                Developed and implemented React-Native components as part of
+                Simplifi and Quicken Companion Apps at Quicken.
               </li>
               <li className="list-disc">
-                Implemented WhatsApp-like feature of "Automatic App Lock after
-                user specified delay" to Simplifi, that was coded separately on
+                Migrated code that was using Realm DB to use Redux containers
+                for state management.
+              </li>
+              <li className="list-disc">
+                Implemented new Navigation using Modals in the App, which
+                resulted in better navigation with smooth UI transitions.
+              </li>
+              <li className="list-disc">
+                Implemented a WhatsApp-like feature of "Automatic App Lock after
+                User-specified delay" to Simplifi, that was coded separately on
                 native Android & native iOS, which had a direct impact on more
-                than 100,000 users. I had to learn Swift for the implementation
-                on native iOS.
-              </li>
-              <li className="list-disc">
-                Implemented a new Navigation using Modals as requested by the
-                Product Manager of our team. This resulted in better navigation
-                with buttery smooth UI transitions.
-              </li>
-              <li className="list-disc">
-                Added a Loading Template View to all the Dashboard components,
-                dramatically increasing the User Experience (UX), that resulted
-                in a better Play Store and App Store reviews. All of these were
-                implemented using ES6+ syntax of JS.
-              </li>
-              <li className="list-disc">
-                Fixed several bugs during my stint here, that were proving to be
-                bottlenecks from performance point of view.
+                than 100,000 users.
               </li>
               <li className="list-disc">
                 Suggested an App enhancement at the annual "Quick-a-thon" event,
                 to include Referral System that was prototyped and implemented
-                in 2 days.
+                in 2 days. Our team was shortlisted to present this idea in the
+                presence of Senior Leadership Team. Later, this idea was taken
+                up by the Marketing team to further build on the specifics given
+                by our team, at the event.
               </li>
               <li className="list-disc">
                 Revamped UI Components using "styled-components" library, to
@@ -89,22 +93,13 @@ const Resume = () => {
                 its use in "Automatic App Lock" feature.
               </li>
               <li className="list-disc">
-                Familiarity in Test driven environment where I have extensively
-                written test cases for newly added components and functions for
-                better Code Reliability, Code Quality and increase the overall
-                Code Coverage, using Jest and Mocha.
+                Worked in a Test driven environment writing test cases for Code
+                Reliability, Code Quality and increasing the overall Code
+                Coverage, using Jest and Mocha.
               </li>
               <li className="list-disc">
-                Integrated Intercom (Live Chat with Care and Support team) into
-                Simplifi, to increase the overall User satisfaction.
-              </li>
-              <li className="list-disc">
-                Integrated Instabug (Bug report feature) into Simplifi, to
-                instantly notify the developers of any bugs found by the users.
-              </li>
-              <li className="list-disc">
-                Added "Accessibility labels" to many of the legacy components in
-                the app, for better UX of differently-abled people.
+                Integrated Intercom (Live Chat with Care and Support team) and
+                Instabug (Bug report feature) into Simplifi.
               </li>
             </ul>
 
@@ -123,14 +118,8 @@ const Resume = () => {
                 Energy (PECon) 2018 (stated below).
               </li>
               <li className="list-disc">
-                Wrote a RESTful API for the backend that was stored in one of
-                our college's servers, to do CRUD operations on the data sent
-                from the app, on user interaction. Implemented the backend with
-                PostgreSQL, and used SQLite for local storage on the app.
-              </li>
-              <li className="list-disc">
-                It is handed over to Nuetech to register an IOT device, at their
-                clients' place, by Nuetech's technicians.
+                RESTful API was utilized to do CRUD operations. PostgreSQL was
+                used in backend, and SQLite for local storage.
               </li>
               <li className="list-disc">
                 Practical experience of Software Development Lifecycle (SDLC)
@@ -172,7 +161,7 @@ const Resume = () => {
               ExpressJS, Redux, JSON, XML
             </p>
             <p className="text-lg font-light italic mb-4">
-              Tailwind, styled-compnents
+              Tailwind, styled-components
             </p>
             <p className="text-xl font-semibold">Tools & Platforms</p>
             <p className="text-lg font-light italic">
@@ -203,7 +192,7 @@ const Resume = () => {
               Computer Networks, S/W Engg,
             </p>
             <p className="text-lg font-light italic mb-4">
-              Computer Organisation & Arch
+              Computer Organization & Arch
             </p>
 
             <p className="text-xl font-semibold">SKCH PU College</p>

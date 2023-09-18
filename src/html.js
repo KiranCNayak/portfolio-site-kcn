@@ -8,7 +8,7 @@ export default function HTML(props) {
       style={{
         scrollBehavior: 'smooth',
         backgroundImage:
-          'linear-gradient(135deg, #020617 0%, #0f172a 50%, #020617 100%)',
+          'linear-gradient(135deg, #020617 0%, #0f123a 50%, #020617 100%)',
       }}
     >
       <head>
